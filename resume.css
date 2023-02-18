@@ -1,0 +1,134 @@
+html{
+
+    background-color: rgba(255, 255, 255, 0.863);
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
+a:hover{
+    color: red;
+}
+footer {
+    display: flex;
+    background-color: #afcff0;
+    color: #fff;
+    padding-bottom: 0;
+    background-image: linear-gradient(0deg, rgba(228, 225, 219, 1), #ff9999);
+}
+.insta{
+    color: red;
+    padding-left: 15%;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.insta img{
+    margin-top: 10px
+    padding-left: 0px;
+}
+.twitter{
+
+    padding-left:12%;
+}
+.youtube{
+    padding-left: 12%;
+}
+.reddit{
+    padding-left: 12%;
+}
+
+span img {
+    padding-top: 20px;
+    height: 50px;
+    width: auto;
+    
+  }
+
+  ol {
+    background: #ff9999;
+    padding: 20px;
+  }
+  
+  ul {
+    background: #3399ff;
+    padding: 20px;
+  }
+  
+  ol li {
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+  }
+  
+  ul li {
+    background: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+  }
+
+  .button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #fbffe9;
+  }
+  
+  .button1:hover {
+    background-color: yellow;
+    color: gray;
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #404c50;
+  }
+  
+  .button2:hover {
+    background-color: #404c50;
+    color: white;
+  }
+
+aside {
+  width: 40%;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  float: right;
+  box-shadow: inset 5px 0 5px -5px #29627e;
+  font-style: italic;
+  color: #143343;
+}
+footer p{
+    font-size: 30px;
+    color: darkblue;
+}
+
+h1{
+    text-align: center;
+    background-blend-mode: color-burn;
+}
+
+p{
+    background-color: wheat;
+}
+
+footer p{
+    background-color: transparent;
+}
